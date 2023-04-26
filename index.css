@@ -1,0 +1,302 @@
+/* import{}
+font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navtab{
+    /* height:86px; */
+    background-color: rgba(252, 175, 2, 1);
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    /* padding: 10px; */
+}
+
+.item{
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+    font-weight: 400;
+}
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainitem1{
+    padding-left: 10px;
+}
+
+h1{
+    padding: 15px;
+    font-weight: 700;
+    font-size: 64px;
+    padding-top: 60px;
+}
+.para{
+    padding: 25px;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.button1{
+
+    padding-left: 25px;
+    padding-top: 30px;
+    
+}
+
+.btn1{
+    background-color: rgba(252, 175, 2, 1);
+    color: black;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+img{
+    width: 697px;
+    height: 500px;
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.contact{
+    color: rgba(252, 175, 2, 1);
+    padding-bottom: 30px;
+    margin-left: 35px;
+}
+
+.in{
+    border-radius: 45px;
+    width: 90%;
+    height: 25px;
+    border:1px solid rgba(252, 175, 2, 1);
+    padding:15px;
+    background-color: black;
+    
+}
+
+::placeholder{
+    color: rgba(252, 175, 2, 1);
+    font-size: 28px;
+}
+
+
+.item5{
+    display: flex;
+    justify-content: space-between;
+}
+
+#item3{
+    margin-left: 35px;
+    margin-right: 10px;
+    outline: none;
+}
+#item4{
+    margin-left: 10px;
+    margin-right: 90px;
+    outline: none;
+}
+
+#item1{
+    margin-left: 35px;
+    outline: none;
+}
+
+#item2{
+    margin-left: 35px;
+    outline: none;
+}
+
+.btn2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 40px;
+   
+}
+
+.btn2 button{
+    width: 180px;
+    height: 50px;
+    background-color:rgba(252, 175, 2, 1) ;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+/* table{
+    margin-left: 35px;
+    margin-right: 75px;
+    margin-bottom: 75px;
+}
+
+thead{
+    color: rgba(252, 175, 2, 1);
+    border:1px solid rgba(252, 175, 2, 1);
+    
+}
+tbody{
+    color: rgba(252, 175, 2, 1);
+    border:1px solid rgba(252, 175, 2, 1);
+    border: none;
+
+}
+
+tr,td,th{
+    border: 1px solid rgba(252, 175, 2, 1);
+}
+
+tfoot{
+    background-color: rgba(252, 175, 2, 1) ;
+    color: black;
+    
+}
+
+.tf{
+    color: black;
+}
+
+.col{
+    padding: 20px;
+   
+}
+
+.no{
+    text-align: center;
+    width: 150px;
+    padding: 20px;
+    font-size: 28px;
+}
+
+
+#no{
+    text-align: center;
+    font-size: 28px;
+}
+
+
+.col2{
+    width: 400px;
+    padding: 30px;
+    font-size: 28px;
+}
+
+#col2{
+    padding: 20px;
+    font-size: 28px;
+}
+
+.col3{
+    width: 800px;
+    padding: 30px;
+    font-size: 28px;
+
+}
+
+#col3{
+    padding: 20px;
+    font-size: 28px;
+} */
+
+
+.row1{
+    color: rgba(252, 175, 2, 1) ;
+     
+}
+
+table,td{
+    border: 1px solid rgba(252, 175, 2, 1) ;
+    border-collapse: collapse;
+    padding:20px;
+    font-size: 28px;
+}
+
+.row2 td{
+    border-bottom: none;
+    color: rgba(252, 175, 2, 1) ;
+}
+
+.row3 td{
+    border-top: none;
+    border-bottom: none;
+    color: rgba(252, 175, 2, 1) ;
+}
+.row4 td{
+    border-top: none;
+    border-bottom: none;
+    color: rgba(252, 175, 2, 1) ;
+}
+.row5 td{
+    border-top: none;
+    border-bottom: none;
+    color: rgba(252, 175, 2, 1) ;
+}
+.row6 td{
+    border-top: none;
+    border-bottom: none;
+    color: rgba(252, 175, 2, 1) ;
+}
+
+.row7 td{
+    border-top: none;
+    border-bottom: none;
+    color: rgba(252, 175, 2, 1) ;
+}
+
+#col1{
+    width: 100px;
+    text-align: center;
+}
+
+#col2{
+    width:400px;
+}
+
+#col3{
+    width:800px;
+}
+
+tfoot{
+    background-color: rgba(252, 175, 2, 1);
+}
+
+tfoot td{
+    color: black;
+    border: 1px solid black;
+}
+
+table{
+    margin-left: 35px;
+    margin-bottom: 75px;
+}
+
+
+
